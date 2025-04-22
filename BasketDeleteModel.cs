@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace B2BEcommerce.Models.Order
 {
-    public class FilterValuesModel
+    public class BasketDeleteModel
     {
         public int RECORDREF { get; set; }
-        public string VALUE { get; set; }
-        public string FILTERREF { get; set; }
+        public string BASKET_NAME { get; set; }
+        public string FIRMNR { get; set; }
+        public int TYPE { get; set; }
     }
 }
